@@ -1,0 +1,182 @@
+2019-11-24 14:37:09.322 +02:00 [INF] Starting web host
+2019-11-24 14:37:10.765 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 14:37:10.771 +02:00 [INF] Hosting environment: Development
+2019-11-24 14:37:10.774 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 14:37:10.803 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:37:11.340 +02:00 [INF] Request finished in 542.0042000000001ms 200 text/html;charset=utf-8
+2019-11-24 14:37:12.615 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 14:37:12.949 +02:00 [INF] Request finished in 334.4484ms 200 application/json;charset=utf-8
+2019-11-24 14:37:12.968 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:37:12.971 +02:00 [INF] Request finished in 2.7821000000000002ms 200 text/html;charset=utf-8
+2019-11-24 14:37:29.017 +02:00 [INF] Starting web host
+2019-11-24 14:37:29.618 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 14:37:29.622 +02:00 [INF] Hosting environment: Development
+2019-11-24 14:37:29.624 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 14:37:29.642 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:37:29.911 +02:00 [INF] Request finished in 273.0199ms 200 text/html;charset=utf-8
+2019-11-24 14:37:30.543 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 14:37:30.675 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:37:30.679 +02:00 [INF] Request finished in 4.0906ms 200 text/html;charset=utf-8
+2019-11-24 14:37:30.950 +02:00 [INF] Request finished in 408.69980000000004ms 200 application/json;charset=utf-8
+2019-11-24 14:39:50.620 +02:00 [INF] Starting web host
+2019-11-24 14:39:51.358 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 14:39:51.362 +02:00 [INF] Hosting environment: Development
+2019-11-24 14:39:51.363 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 14:39:51.379 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:39:51.834 +02:00 [INF] Request finished in 444.37550000000005ms 200 text/html;charset=utf-8
+2019-11-24 14:39:52.641 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 14:39:52.752 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:39:52.756 +02:00 [INF] Request finished in 6.7153ms 200 text/html;charset=utf-8
+2019-11-24 14:39:53.144 +02:00 [INF] Request finished in 504.70050000000003ms 200 application/json;charset=utf-8
+2019-11-24 14:43:27.936 +02:00 [INF] Starting web host
+2019-11-24 14:43:28.752 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 14:43:28.756 +02:00 [INF] Hosting environment: Development
+2019-11-24 14:43:28.758 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 14:43:28.791 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:43:29.199 +02:00 [INF] Request finished in 420.8605ms 200 text/html;charset=utf-8
+2019-11-24 14:43:29.961 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 14:43:30.248 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:43:30.251 +02:00 [INF] Request finished in 3.9236ms 200 text/html;charset=utf-8
+2019-11-24 14:43:30.338 +02:00 [INF] Request finished in 378.20000000000005ms 200 application/json;charset=utf-8
+2019-11-24 14:43:54.551 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44395/api/Geolocation application/json 19
+2019-11-24 14:43:54.600 +02:00 [INF] Executing endpoint 'WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 14:43:54.654 +02:00 [INF] Route matched with {action = "Get", controller = "Geolocation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(WeatherAndGeoLocationServices.Models.GeoLocation.GeoRequestModel) on controller WeatherAndGeoLocationServices.Controllers.GeolocationController (WeatherAndGeoLocationServices).
+2019-11-24 14:43:56.092 +02:00 [INF] Executed action WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices) in 1431.8294ms
+2019-11-24 14:43:56.094 +02:00 [INF] Executed endpoint 'WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 14:43:56.101 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Unable to find a constructor to use for type Microsoft.AspNetCore.Mvc.JsonResult. A class should either have a default constructor, one constructor with arguments or a constructor marked with the JsonConstructor attribute. Path 'zip_code', line 1, position 12.
+   at WeatherAndGeoLocationServices.Services.GeoLocationService.GetGeoInfo(String zipCode) in C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices\Services\GeoLocationService.cs:line 33
+   at WeatherAndGeoLocationServices.Controllers.GeolocationController.Get(GeoRequestModel model) in C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices\Controllers\GeolocationController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-11-24 14:43:56.144 +02:00 [INF] Request finished in 1594.0948ms 500 text/plain
+2019-11-24 14:49:19.005 +02:00 [INF] Starting web host
+2019-11-24 14:49:19.767 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 14:49:19.771 +02:00 [INF] Hosting environment: Development
+2019-11-24 14:49:19.773 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 14:49:19.791 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:49:20.104 +02:00 [INF] Request finished in 317.3686ms 200 text/html;charset=utf-8
+2019-11-24 14:49:20.716 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 14:49:21.012 +02:00 [INF] Request finished in 296.8942ms 200 application/json;charset=utf-8
+2019-11-24 14:49:21.212 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:49:21.219 +02:00 [INF] Request finished in 7.4350000000000005ms 200 text/html;charset=utf-8
+2019-11-24 14:50:19.434 +02:00 [INF] Starting web host
+2019-11-24 14:50:20.042 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 14:50:20.045 +02:00 [INF] Hosting environment: Development
+2019-11-24 14:50:20.046 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 14:50:20.063 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:50:20.318 +02:00 [INF] Request finished in 258.7737ms 200 text/html;charset=utf-8
+2019-11-24 14:50:21.012 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 14:50:21.196 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 14:50:21.199 +02:00 [INF] Request finished in 3.3524000000000003ms 200 text/html;charset=utf-8
+2019-11-24 14:50:21.353 +02:00 [INF] Request finished in 342.80850000000004ms 200 application/json;charset=utf-8
+2019-11-24 14:50:31.161 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44395/api/Geolocation application/json 19
+2019-11-24 14:50:31.224 +02:00 [INF] Executing endpoint 'WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 14:50:31.285 +02:00 [INF] Route matched with {action = "Get", controller = "Geolocation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(WeatherAndGeoLocationServices.Models.GeoLocation.GeoRequestModel) on controller WeatherAndGeoLocationServices.Controllers.GeolocationController (WeatherAndGeoLocationServices).
+2019-11-24 14:50:32.387 +02:00 [INF] Executed action WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices) in 1094.2771ms
+2019-11-24 14:50:32.390 +02:00 [INF] Executed endpoint 'WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 14:50:32.396 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Unable to find a constructor to use for type Microsoft.AspNetCore.Mvc.JsonResult. A class should either have a default constructor, one constructor with arguments or a constructor marked with the JsonConstructor attribute. Path 'zip_code', line 1, position 12.
+   at WeatherAndGeoLocationServices.Services.GeoLocationService.GetGeoInfo(String zipCode) in C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices\Services\GeoLocationService.cs:line 33
+   at WeatherAndGeoLocationServices.Controllers.GeolocationController.Get(GeoRequestModel model) in C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices\Controllers\GeolocationController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-11-24 14:50:32.446 +02:00 [INF] Request finished in 1287.5868ms 500 text/plain
+2019-11-24 16:37:49.980 +02:00 [INF] Starting web host
+2019-11-24 16:37:50.637 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 16:37:50.641 +02:00 [INF] Hosting environment: Development
+2019-11-24 16:37:50.643 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 16:37:50.663 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 16:37:51.016 +02:00 [INF] Request finished in 355.65090000000004ms 200 text/html;charset=utf-8
+2019-11-24 16:37:51.710 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 16:37:51.961 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 16:37:51.966 +02:00 [INF] Request finished in 5.0429ms 200 text/html;charset=utf-8
+2019-11-24 16:37:51.999 +02:00 [INF] Request finished in 290.694ms 200 application/json;charset=utf-8
+2019-11-24 16:38:03.200 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44395/api/Geolocation application/json 19
+2019-11-24 16:38:03.261 +02:00 [INF] Executing endpoint 'WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 16:38:03.325 +02:00 [INF] Route matched with {action = "Get", controller = "Geolocation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(WeatherAndGeoLocationServices.Models.GeoLocation.GeoRequestModel) on controller WeatherAndGeoLocationServices.Controllers.GeolocationController (WeatherAndGeoLocationServices).
+2019-11-24 16:38:04.906 +02:00 [INF] Executing JsonResult, writing value of type 'Newtonsoft.Json.Linq.JObject'.
+2019-11-24 16:38:04.931 +02:00 [INF] Executed action WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices) in 1600.2412000000002ms
+2019-11-24 16:38:04.934 +02:00 [INF] Executed endpoint 'WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 16:38:04.941 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: The collection type 'Newtonsoft.Json.Linq.JToken' is not supported.
+   at System.Text.Json.JsonClassInfo.GetElementType(Type propertyType, Type parentType, MemberInfo memberInfo, JsonSerializerOptions options)
+   at System.Text.Json.JsonClassInfo.CreateProperty(Type declaredPropertyType, Type runtimePropertyType, Type implementedPropertyType, PropertyInfo propertyInfo, Type parentClassType, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.JsonClassInfo.AddProperty(Type propertyType, PropertyInfo propertyInfo, Type classType, JsonSerializerOptions options)
+   at System.Text.Json.JsonClassInfo.AddPolicyProperty(Type propertyType, JsonSerializerOptions options)
+   at System.Text.Json.JsonClassInfo..ctor(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetOrAddClass(Type classType)
+   at System.Text.Json.JsonClassInfo.get_ElementClassInfo()
+   at System.Text.Json.JsonSerializer.Write(Utf8JsonWriter writer, Int32 originalWriterDepth, Int32 flushThreshold, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteAsyncCore(Stream utf8Json, Object value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-11-24 16:38:05.000 +02:00 [INF] Request finished in 1800.5707ms 500 text/plain
+2019-11-24 16:41:23.586 +02:00 [INF] Starting web host
+2019-11-24 16:41:24.603 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 16:41:24.606 +02:00 [INF] Hosting environment: Development
+2019-11-24 16:41:24.607 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 16:41:24.627 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 16:41:24.886 +02:00 [INF] Request finished in 263.034ms 200 text/html;charset=utf-8
+2019-11-24 16:41:25.625 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 16:41:25.939 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 16:41:25.942 +02:00 [INF] Request finished in 3.1779ms 200 text/html;charset=utf-8
+2019-11-24 16:41:25.949 +02:00 [INF] Request finished in 325.4551ms 200 application/json;charset=utf-8
+2019-11-24 16:41:34.250 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44395/api/Geolocation application/json-patch+json 19
+2019-11-24 16:41:34.310 +02:00 [INF] Executing endpoint 'WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 16:41:34.383 +02:00 [INF] Route matched with {action = "Get", controller = "Geolocation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(WeatherAndGeoLocationServices.Models.GeoLocation.GeoRequestModel) on controller WeatherAndGeoLocationServices.Controllers.GeolocationController (WeatherAndGeoLocationServices).
+2019-11-24 16:41:35.581 +02:00 [INF] Executing JsonResult, writing value of type 'Newtonsoft.Json.Linq.JObject'.
+2019-11-24 16:41:35.607 +02:00 [INF] Executed action WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices) in 1213.3711ms
+2019-11-24 16:41:35.608 +02:00 [INF] Executed endpoint 'WeatherAndGeoLocationServices.Controllers.GeolocationController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 16:41:35.610 +02:00 [INF] Request finished in 1361.6901ms 200 application/json; charset=utf-8
+2019-11-24 16:54:58.292 +02:00 [INF] Starting web host
+2019-11-24 16:54:58.999 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-11-24 16:54:59.002 +02:00 [INF] Hosting environment: Development
+2019-11-24 16:54:59.003 +02:00 [INF] Content root path: C:\Users\Farid\source\repos\WeatherAndGeoLocationServices\WeatherAndGeoLocationServices
+2019-11-24 16:54:59.023 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 16:54:59.342 +02:00 [INF] Request finished in 323.8521ms 200 text/html;charset=utf-8
+2019-11-24 16:55:00.130 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/v1/swagger.json  
+2019-11-24 16:55:00.385 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/swagger/index.html  
+2019-11-24 16:55:00.391 +02:00 [INF] Request finished in 5.9714ms 200 text/html;charset=utf-8
+2019-11-24 16:55:00.412 +02:00 [INF] Request finished in 284.0914ms 200 application/json;charset=utf-8
+2019-11-24 16:55:31.767 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44395/api/WeatherForecast?cityCode=2172797  
+2019-11-24 16:55:31.823 +02:00 [INF] Executing endpoint 'WeatherAndGeoLocationServices.Controllers.WeatherForecastController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 16:55:31.884 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String) on controller WeatherAndGeoLocationServices.Controllers.WeatherForecastController (WeatherAndGeoLocationServices).
+2019-11-24 16:55:32.432 +02:00 [INF] Executing JsonResult, writing value of type 'Newtonsoft.Json.Linq.JObject'.
+2019-11-24 16:55:32.463 +02:00 [INF] Executed action WeatherAndGeoLocationServices.Controllers.WeatherForecastController.Get (WeatherAndGeoLocationServices) in 567.4284ms
+2019-11-24 16:55:32.465 +02:00 [INF] Executed endpoint 'WeatherAndGeoLocationServices.Controllers.WeatherForecastController.Get (WeatherAndGeoLocationServices)'
+2019-11-24 16:55:32.468 +02:00 [INF] Request finished in 701.4945ms 200 application/json; charset=utf-8

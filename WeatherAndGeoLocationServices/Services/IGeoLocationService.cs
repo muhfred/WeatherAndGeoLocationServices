@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WeatherAndGeoLocationServices.Models.Weather;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WeatherAndGeoLocationServices.Services
 {
-    public interface IForecastService
+    public interface IGeoLocationService
     {
-        Task<object> GetForecast(string cityCode);
+        Task<object> GetGeoInfo(string zipCode);
     }
 }

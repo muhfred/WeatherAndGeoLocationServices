@@ -1,24 +1,26 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using WeatherAndGeoLocationServices.Config;
-using WeatherAndGeoLocationServices.Models.Weather;
 
 namespace WeatherAndGeoLocationServices.Services
 {
-    public class ForecastService : IForecastService
+    public class GeoLocationService : IGeoLocationService
     {
         private static readonly HttpClient Client = new HttpClient();
-        string IDOWeather = Constants.OPEN_WEATHER_APPID;
-        public async Task<object> GetForecast(string cityCode)
+        string GeoKey = Constants.ZIP_CODE_APIKEY;
+        public async Task<object> GetGeoInfo(string zipCode)
         {
             try
             {
                 using HttpClient client = new HttpClient();
                 var response =
                     await client.GetAsync(
-                        $"http://api.openweathermap.org/data/2.5/weather?id={cityCode}&APPID={IDOWeather}");
+                        $"https://www.zipcodeapi.com/rest/{GeoKey}/info.json/{zipCode}/degrees");
                 if (response != null)
                 {
                     var jsonString = await response.Content.ReadAsStringAsync();

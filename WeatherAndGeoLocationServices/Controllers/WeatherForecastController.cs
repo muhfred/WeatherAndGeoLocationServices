@@ -22,8 +22,8 @@ namespace WeatherAndGeoLocationServices.Controllers
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] string cityCode)
         {
-            WeatherResponse weatherResponse = await _forecastService.GetForecast(cityCode);
-            return new JsonResult(weatherResponse);
+            var response = await _forecastService.GetForecast(cityCode);
+            return new JsonResult(response);
         }
     }
 }
