@@ -4,18 +4,26 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using WeatherAndGeoLocationServices.Models.Weather;
+using WeatherAndGeoLocationServices.Services;
 
 namespace WeatherAndGeoLocationServices.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly IForecastService _forecastService;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(IForecastService forecastService)
         {
-            _logger = logger;
+            _forecastService = forecastService;
+        }
+        [HttpGet]
+        public async Task<IActionResult> Get([FromQuery] string cityCode)
+        {
+            WeatherResponse weatherResponse = await _forecastService.GetForecast(cityCode);
+            return new JsonResult(weatherResponse);
         }
     }
 }
