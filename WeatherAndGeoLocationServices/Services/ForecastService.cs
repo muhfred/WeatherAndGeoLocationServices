@@ -3,7 +3,6 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using WeatherAndGeoLocationServices.Config;
-using WeatherAndGeoLocationServices.Models.Weather;
 
 namespace WeatherAndGeoLocationServices.Services
 {
